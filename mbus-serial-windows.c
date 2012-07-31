@@ -55,6 +55,9 @@ mbus_serial_connect(char *device)
       strcpy(handle->device, "COM4");
     else
       strcpy(handle->device, device);
+
+    fprintf(stderr, "Going to use device %s\n", handle->device);
+
     
     //
     // create a SERIAL connection
@@ -76,6 +79,9 @@ mbus_serial_connect(char *device)
         fprintf(stderr, "%s: failed to open serial device.\n", __PRETTY_FUNCTION__);
         return NULL;
     }
+    else {
+      fprintf(stderr, "device opened %s\n", handle->device);
+    }
     
     DCB dcbSerialParams = {0};
     dcbSerialParams.DCBlength=sizeof(dcbSerialParams);
@@ -84,6 +90,7 @@ mbus_serial_connect(char *device)
     {
         fprintf(stderr, "%s: error getting state.\n", __PRETTY_FUNCTION__);
         return NULL;
+
     }
     
     dcbSerialParams.BaudRate = CBR_2400;
@@ -185,6 +192,18 @@ mbus_serial_send_frame(mbus_serial_handle *handle, mbus_frame *frame)
         fprintf(stderr, "%s: mbus_frame_pack failed\n", __PRETTY_FUNCTION__);
         return -1;
     }
+
+    fprintf(stderr, "mbus_serial_send_frame handle %x: buff:%s len:%d\n", handle->hSerial, buff, len);
+
+    // DUMP
+    int n=0;
+    const char * c=(const char * )&buff;
+    for(;n < len; c++)		{	       
+      printf("SEND %d %x\n",n,*c);
+      n++;
+    }
+    ///
+    
     
     if (!WriteFile(handle->hSerial, buff, len, &dwBytesWritten, NULL))
     {
@@ -205,6 +224,10 @@ mbus_serial_send_frame(mbus_serial_handle *handle, mbus_frame *frame)
         fprintf(stderr, "%s: Failed to write frame to socket: \n", __PRETTY_FUNCTION__, lastError);
         return -1;
     }
+    else {
+      fprintf(stderr, "%s: bytes written %d\n", __PRETTY_FUNCTION__, len);
+    }
+
 }
 
 //------------------------------------------------------------------------------
@@ -225,12 +248,31 @@ mbus_serial_recv_frame(mbus_serial_handle *handle, mbus_frame *frame)
     remaining = 1; // start by reading 1 byte
     len = 0;
     
+    fprintf(stderr, "%s: Read Started.\n", __PRETTY_FUNCTION__);
     do {
+
+      fprintf(stderr, "%s: Read Loop.\n", __PRETTY_FUNCTION__);
+
         if (!ReadFile(handle->hSerial, &buff[len], remaining, &dwBytesRead, NULL))
         {
+	  fprintf(stderr, "%s: ReadFile Failed.\n", __PRETTY_FUNCTION__);
+
             return -1;
         }
+	else
+	  {
+	    fprintf(stderr, "%s: Read OK %d.\n", __PRETTY_FUNCTION__,dwBytesRead);
+	  }
         
+	// DUMP
+	int n=0;
+	const char * c=(const char * )&buff[len];
+	for(;n < dwBytesRead; c++)		{	       
+	  printf("read %d %x\n",n,*c);
+	  n++;
+	}
+    ///-------------------
+
         len += dwBytesRead;
         
     } while ((remaining = mbus_parse(frame, buff, len)) > 0);

@@ -25,7 +25,9 @@ main(int argc, char **argv)
 {
     mbus_handle *handle;
     char *device;
-    int address, baudrate = 9600;
+    int address, baudrate = 2400;
+
+    fprintf(stderr, "Hello, welcome to mbus\n");
 
     if (argc == 2)
     {
@@ -41,11 +43,16 @@ main(int argc, char **argv)
         fprintf(stderr, "usage: %s [-b BAUDRATE] device\n", argv[0]);
         return 0;
     }
+
+    fprintf(stderr, "Going to use device %s at baud %d \n", device, baudrate);
     
+
+
     if ((handle = mbus_connect_serial(device)) == NULL)
     {
         printf("Failed to setup connection to M-bus gateway\n");
         return -1;
+
     }
 
     if (mbus_serial_set_baudrate(handle->m_serial_handle, baudrate) == -1)
@@ -53,6 +60,7 @@ main(int argc, char **argv)
         printf("Failed to set baud rate.\n");
         return -1;
     }
+
 
 
     for (address = 0; address < 254; address++)
@@ -63,19 +71,38 @@ main(int argc, char **argv)
 
         if (mbus_send_ping_frame(handle, address) == -1)
         {
-            printf("Scan failed. Could not send ping frame: %s\n", mbus_error_str());
-            return -1;
+	  printf("Scan failed. Could not send ping frame to handle %d and address %d: %s\n", handle, address, mbus_error_str());
+	  continue;
+	    //            return -1;
         } 
 
         if (mbus_recv_frame(handle, &reply) == -1)
         {
-            continue;
-        }    
 
-        if (mbus_frame_type(&reply) == MBUS_FRAME_TYPE_ACK)
+            printf("No reply address %d\n", address);
+
+            continue;
+        } 
+	else  {
+	      printf("Got a reply\n");
+	      int n=0;
+	      const char * c=(const char * )&reply;
+	      //	      for(;n < sizeof(mbus_frame)-1; c++)		{	       
+	      for(;n < 10; c++)		{	       
+		printf("char %d %d\n",n,*c);
+		n++;
+	      }
+	}
+
+	int frame_type= mbus_frame_type(&reply);
+        if (frame_type == MBUS_FRAME_TYPE_ACK)
         {
-            printf("Found a M-Bus device at address %d\n", address);
+            printf("Found a M-Bus device at address %d \n", address);
         }
+	else 
+	{
+	  printf("not found addr:%d got frame type %d\n", address, frame_type);
+	}
     }
 
     mbus_disconnect(handle);

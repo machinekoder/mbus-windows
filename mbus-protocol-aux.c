@@ -1186,6 +1186,9 @@ mbus_disconnect(mbus_handle * handle)
 int
 mbus_recv_frame(mbus_handle * handle, mbus_frame *frame)
 {
+
+  MBUS_ERROR("%s: DEBUG recv.\n", __PRETTY_FUNCTION__);
+
     if (handle == NULL)
     {
         MBUS_ERROR("%s: Invalid M-Bus handle for receive.\n", __PRETTY_FUNCTION__);
@@ -1196,10 +1199,12 @@ mbus_recv_frame(mbus_handle * handle, mbus_frame *frame)
     {
         return mbus_serial_recv_frame(handle->m_serial_handle, frame);
     }
-/*    else
+    else
     {
-        return mbus_tcp_recv_frame(handle->m_tcp_handle, frame);
-    }*/
+        MBUS_ERROR("%s: Invalid M-Bus handle type .\n", __PRETTY_FUNCTION__);
+
+      //   return mbus_tcp_recv_frame(handle->m_tcp_handle, frame);
+    }
     return 0;
 }
 

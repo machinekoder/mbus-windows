@@ -1,0 +1,4728 @@
+Hello, welcome to mbus
+Going to use device com1 at baud 2400 
+Going to use device com1
+device opened com1
+mbus_serial_send_frame handle 7e8: buff:@ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@A len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@B len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@C len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@D len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@E len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@F len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@G len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@H len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@	I len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@
+J len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@K len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@L len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@M len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@N len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@O len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@P len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Q len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@R len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@S len:5
+mbus_seriaSEND 0 10
+SEND 1 40
+SEND 2 0
+SEND 3 40
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:0 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 1
+SEND 3 41
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:1 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 2
+SEND 3 42
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 2: 
+SEND 0 10
+SEND 1 40
+SEND 2 3
+SEND 3 43
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:3 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 4
+SEND 3 44
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:4 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 5
+SEND 3 45
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 5: 
+SEND 0 10
+SEND 1 40
+SEND 2 6
+SEND 3 46
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:6 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 7
+SEND 3 47
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:7 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 8
+SEND 3 48
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 8: 
+SEND 0 10
+SEND 1 40
+SEND 2 9
+SEND 3 49
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:9 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 a
+SEND 3 4a
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:10 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 b
+SEND 3 4b
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 11: 
+SEND 0 10
+SEND 1 40
+SEND 2 c
+SEND 3 4c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:12 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 d
+SEND 3 4d
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:13 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 e
+SEND 3 4e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:14 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 f
+SEND 3 4f
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 15: 
+SEND 0 10
+SEND 1 40
+SEND 2 10
+SEND 3 50
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:16 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 11
+SEND 3 51
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:17 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 12
+SEND 3 52
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 18: 
+SEND 0 10
+SEND 1 40
+SEND 2 13
+SEND 3 53
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:19 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 14
+SEND 3 54
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:20 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 15
+SEND 3 55
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 21: 
+SEND 0 10
+SEND 1 40
+SEND 2 16
+SEND 3 56
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:22 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 17
+SEND 3 57
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:23 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 18
+SEND 3 58
+SEND 4 16
+Scan failed. Could not sel_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@T len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@U len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@V len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@W len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@X len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Y len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Z len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@[ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@\ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@] len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@^ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@_ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ ` len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@!a len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@"b len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@#c len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@$d len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@%e len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@&f len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0nd ping frame to handle 4011856 and address 24: 
+SEND 0 10
+SEND 1 40
+SEND 2 19
+SEND 3 59
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:25 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 1a
+SEND 3 5a
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:26 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 1b
+SEND 3 5b
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 27: 
+SEND 0 10
+SEND 1 40
+SEND 2 1c
+SEND 3 5c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:28 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 1d
+SEND 3 5d
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:29 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 1e
+SEND 3 5e
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 30: 
+SEND 0 10
+SEND 1 40
+SEND 2 1f
+SEND 3 5f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:31 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 20
+SEND 3 60
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:32 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 21
+SEND 3 61
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:33 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 22
+SEND 3 62
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 34: 
+SEND 0 10
+SEND 1 40
+SEND 2 23
+SEND 3 63
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:35 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 24
+SEND 3 64
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:36 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 25
+SEND 3 65
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 37: 
+SEND 0 10
+SEND 1 40
+SEND 2 26
+SEND 3 66
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:38 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 27
+SEND 3 67
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:39 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 28
+SEND 3 68
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 40: 
+SEND 0 10
+SEND 1 40
+SEND 2 29
+SEND 3 69
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:41 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 2a
+SEND 3 6a
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:42 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 2b
+SEND 3 6b
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 43: 
+SEND 0 10
+SEND 1 40
+SEND 2 2c
+SEND 3 6c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:44 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 2d
+SEND 3 6d
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:45 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 2e
+SEND 3 6e
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 46: 
+SEND 0 10
+SEND 1 40
+SEND 2 2f
+SEND 3 6f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:47 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 30
+SEND 3 70
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:48 got frame type 0
+.
+mbus_serial_send_frame handle 7e8: buff:@'g len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@(h len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@)i len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@*j len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@+k len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@,l len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@-m len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@.n len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@/o len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@0p len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@1q len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@2r len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@3s len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@4t len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@5u len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@6v len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@7w len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@8x len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@9y len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@:z len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbusSEND 0 10
+SEND 1 40
+SEND 2 31
+SEND 3 71
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 49: 
+SEND 0 10
+SEND 1 40
+SEND 2 32
+SEND 3 72
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:50 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 33
+SEND 3 73
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:51 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 34
+SEND 3 74
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 52: 
+SEND 0 10
+SEND 1 40
+SEND 2 35
+SEND 3 75
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:53 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 36
+SEND 3 76
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:54 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 37
+SEND 3 77
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 55: 
+SEND 0 10
+SEND 1 40
+SEND 2 38
+SEND 3 78
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:56 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 39
+SEND 3 79
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:57 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 3a
+SEND 3 7a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 58: 
+SEND 0 10
+SEND 1 40
+SEND 2 3b
+SEND 3 7b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:59 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 3c
+SEND 3 7c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:60 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 3d
+SEND 3 7d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 61: 
+SEND 0 10
+SEND 1 40
+SEND 2 3e
+SEND 3 7e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:62 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 3f
+SEND 3 7f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:63 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 40
+SEND 3 ffffff80
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 64: 
+SEND 0 10
+SEND 1 40
+SEND 2 41
+SEND 3 ffffff81
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:65 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 42
+SEND 3 ffffff82
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:66 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 43
+SEND 3 ffffff83
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 67: 
+SEND 0 10
+SEND 1 40
+SEND 2 44
+SEND 3 ffffff84
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:68 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 45
+SEND 3 ffffff85
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:69 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 46
+SEND 3 ffffff86
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:70 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 47
+SEND 3 ffffff87
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 71: 
+SEND 0 10
+SEND 1 40
+SEND 2 48
+SEND 3 ffffff88
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:72 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 49
+SEND 3 ffffff89
+SEND 4 16
+Go_serial_send_frame handle 7e8: buff:@;{ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@<| len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@=} len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@>~ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@? len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@@Ä len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@AÅ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@BÇ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@CÉ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@DÑ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@EÖ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@FÜ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Gá len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Hà len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Iâ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Jä len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Kã len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Lå len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Mç len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Né len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_seriat a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:73 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 4a
+SEND 3 ffffff8a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 74: 
+SEND 0 10
+SEND 1 40
+SEND 2 4b
+SEND 3 ffffff8b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:75 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 4c
+SEND 3 ffffff8c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:76 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 4d
+SEND 3 ffffff8d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 77: 
+SEND 0 10
+SEND 1 40
+SEND 2 4e
+SEND 3 ffffff8e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:78 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 4f
+SEND 3 ffffff8f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:79 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 50
+SEND 3 ffffff90
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 80: 
+SEND 0 10
+SEND 1 40
+SEND 2 51
+SEND 3 ffffff91
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:81 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 52
+SEND 3 ffffff92
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:82 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 53
+SEND 3 ffffff93
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 83: 
+SEND 0 10
+SEND 1 40
+SEND 2 54
+SEND 3 ffffff94
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:84 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 55
+SEND 3 ffffff95
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:85 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 56
+SEND 3 ffffff96
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 86: 
+SEND 0 10
+SEND 1 40
+SEND 2 57
+SEND 3 ffffff97
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:87 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 58
+SEND 3 ffffff98
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:88 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 59
+SEND 3 ffffff99
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:89 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 5a
+SEND 3 ffffff9a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 90: 
+SEND 0 10
+SEND 1 40
+SEND 2 5b
+SEND 3 ffffff9b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:91 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 5c
+SEND 3 ffffff9c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:92 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 5d
+SEND 3 ffffff9d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 93: 
+SEND 0 10
+SEND 1 40
+SEND 2 5e
+SEND 3 ffffff9e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:94 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 5f
+SEND 3 ffffff9f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:95 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 60
+SEND 3 ffffffa0
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 96: 
+SEND 0 10
+SEND 1 40
+SEND 2l_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Oè len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Pê len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Që len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Rí len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Sì len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Tî len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Uï len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Vñ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Wó len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Xò len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Yô len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Zö len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@[õ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@\ú len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@]ù len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@^û len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@_ü len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@`† len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@a° len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@b¢ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@c£ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@d§ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@e• len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@f¶ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@gß len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@h® len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@i© len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@j™ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@k´ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@l¨ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@m≠ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@nÆ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@oØ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@p∞ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@q± len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@r≤ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@s≥ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@t¥ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@uµ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff: 61
+SEND 3 ffffffa1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:97 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 62
+SEND 3 ffffffa2
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:98 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 63
+SEND 3 ffffffa3
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 99: 
+SEND 0 10
+SEND 1 40
+SEND 2 64
+SEND 3 ffffffa4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:100 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 65
+SEND 3 ffffffa5
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:101 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 66
+SEND 3 ffffffa6
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 102: 
+SEND 0 10
+SEND 1 40
+SEND 2 67
+SEND 3 ffffffa7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:103 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 68
+SEND 3 ffffffa8
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:104 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 69
+SEND 3 ffffffa9
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 105: 
+SEND 0 10
+SEND 1 40
+SEND 2 6a
+SEND 3 ffffffaa
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:106 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 6b
+SEND 3 ffffffab
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:107 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 6c
+SEND 3 ffffffac
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 108: 
+SEND 0 10
+SEND 1 40
+SEND 2 6d
+SEND 3 ffffffad
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:109 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 6e
+SEND 3 ffffffae
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:110 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 6f
+SEND 3 ffffffaf
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:111 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 70
+SEND 3 ffffffb0
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 112: 
+SEND 0 10
+SEND 1 40
+SEND 2 71
+SEND 3 ffffffb1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:113 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 72
+SEND 3 ffffffb2
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:114 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 73
+SEND 3 ffffffb3
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 115: 
+SEND 0 10
+SEND 1 40
+SEND 2 74
+SEND 3 ffffffb4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:116 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 75
+SEND 3 ffffffb5
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:117 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 76
+SEND 3 ffffffb6
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 118: 
+SEND 0 10
+SEND 1 40
+SEND 2 77
+SEND 3 ffffffb7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:119 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 78
+SEND 3 ffffffb8
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+@v∂ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@w∑ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@x∏ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@yπ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@z∫ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@{ª len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@|º len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@}Ω len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@~æ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ø len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ä¿ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Å¡ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ç¬ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@É√ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ñƒ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ö≈ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ü∆ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@á« len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@à» len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@â… len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ä  lchar 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:120 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 79
+SEND 3 ffffffb9
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 121: 
+SEND 0 10
+SEND 1 40
+SEND 2 7a
+SEND 3 ffffffba
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:122 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 7b
+SEND 3 ffffffbb
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:123 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 7c
+SEND 3 ffffffbc
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 124: 
+SEND 0 10
+SEND 1 40
+SEND 2 7d
+SEND 3 ffffffbd
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:125 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 7e
+SEND 3 ffffffbe
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:126 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 7f
+SEND 3 ffffffbf
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 127: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff80
+SEND 3 ffffffc0
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:128 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff81
+SEND 3 ffffffc1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:129 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff82
+SEND 3 ffffffc2
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:130 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff83
+SEND 3 ffffffc3
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 131: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff84
+SEND 3 ffffffc4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:132 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff85
+SEND 3 ffffffc5
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:133 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff86
+SEND 3 ffffffc6
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 134: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff87
+SEND 3 ffffffc7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:135 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff88
+SEND 3 ffffffc8
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:136 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff89
+SEND 3 ffffffc9
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 137: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8a
+SEND 3 ffffffca
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:138 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8b
+SEND 3 ffffffcb
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:139 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8c
+SEND 3 ffffffcc
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 140: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8d
+SEND 3 ffffffcd
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:141 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8e
+SEND 3 ffffffce
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:142 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff8f
+SEND 3 ffffffcf
+SEND 4 16
+Scan failed. Could not senden:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ãÀ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@åÃ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@çÕ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@éŒ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@èœ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ê– len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ë— len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@í“ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ì” len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@î‘ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ï’ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ñ÷ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ó◊ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@òÿ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ôŸ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ö⁄ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@õ€ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ú‹ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ù› len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_f ping frame to handle 4011856 and address 143: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff90
+SEND 3 ffffffd0
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:144 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff91
+SEND 3 ffffffd1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:145 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff92
+SEND 3 ffffffd2
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 146: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff93
+SEND 3 ffffffd3
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:147 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff94
+SEND 3 ffffffd4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:148 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff95
+SEND 3 ffffffd5
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 149: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff96
+SEND 3 ffffffd6
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:150 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff97
+SEND 3 ffffffd7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:151 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff98
+SEND 3 ffffffd8
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:152 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff99
+SEND 3 ffffffd9
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 153: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9a
+SEND 3 ffffffda
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:154 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9b
+SEND 3 ffffffdb
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:155 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9c
+SEND 3 ffffffdc
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 156: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9d
+SEND 3 ffffffdd
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:157 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9e
+SEND 3 ffffffde
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:158 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffff9f
+SEND 3 ffffffdf
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 159: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa0
+SEND 3 ffffffe0
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:160 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa1
+SEND 3 ffffffe1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:161 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa2
+SEND 3 ffffffe2
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 162: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa3
+SEND 3 ffffffe3
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:163 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa4
+SEND 3 ffffffe4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:164 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa5
+SEND 3 ffffffe5
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 165: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa6
+SEND 3 ffffffe6
+SEND 4 16
+Got a reply
+char 0 0
+char 1rame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ûﬁ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@üﬂ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@†‡ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@°· len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¢‚ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@£„ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@§‰ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@•Â len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@¶Ê len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ßÁ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@®Ë len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@©È len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@™Í len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@´Î len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¨Ï len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@≠Ì len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ÆÓ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ØÔ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@∞ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@±Ò len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Rea 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:166 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa7
+SEND 3 ffffffe7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:167 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa8
+SEND 3 ffffffe8
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 168: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffa9
+SEND 3 ffffffe9
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:169 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffaa
+SEND 3 ffffffea
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:170 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffab
+SEND 3 ffffffeb
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:171 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffac
+SEND 3 ffffffec
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 172: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffad
+SEND 3 ffffffed
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:173 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffae
+SEND 3 ffffffee
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:174 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffaf
+SEND 3 ffffffef
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 175: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb0
+SEND 3 fffffff0
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:176 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb1
+SEND 3 fffffff1
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:177 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb2
+SEND 3 fffffff2
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 178: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb3
+SEND 3 fffffff3
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:179 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb4
+SEND 3 fffffff4
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:180 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb5
+SEND 3 fffffff5
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 181: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb6
+SEND 3 fffffff6
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:182 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb7
+SEND 3 fffffff7
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:183 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb8
+SEND 3 fffffff8
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 184: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffb9
+SEND 3 fffffff9
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:185 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffba
+SEND 3 fffffffa
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:186 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffbb
+SEND 3 fffffffb
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 187: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffbc
+SEND 3 fffffffc
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:188 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2d Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@≤Ú len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@≥Û len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¥Ù len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@µı len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@∂ˆ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@∑˜ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@∏¯ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@π˘ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@∫˙ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ª˚ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@º¸ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ω˝ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@æ˛ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@øˇ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¿ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¡ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@¬ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@√ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ƒ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@≈ len:5
+mbus_serial_send_frame: bytes writ ffffffbd
+SEND 3 fffffffd
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:189 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffbe
+SEND 3 fffffffe
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:190 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffbf
+SEND 3 ffffffff
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:191 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc0
+SEND 3 0
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:192 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc1
+SEND 3 1
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 193: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc2
+SEND 3 2
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:194 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc3
+SEND 3 3
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:195 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc4
+SEND 3 4
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 196: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc5
+SEND 3 5
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:197 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc6
+SEND 3 6
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:198 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc7
+SEND 3 7
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 199: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc8
+SEND 3 8
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:200 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffc9
+SEND 3 9
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:201 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffca
+SEND 3 a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 202: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffcb
+SEND 3 b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:203 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffcc
+SEND 3 c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:204 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffcd
+SEND 3 d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 205: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffce
+SEND 3 e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:206 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffcf
+SEND 3 f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:207 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd0
+SEND 3 10
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 208: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd1
+SEND 3 11
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:209 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd2
+SEND 3 12
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:210 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd3
+SEND 3 13
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:211 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd4
+ten 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@∆ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@« len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@» len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@…	 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ 
+ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@À len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ã len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Õ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Œ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@œ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@– len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@— len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@“ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@” len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@‘ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@’ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@÷ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@◊ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ÿ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frameSEND 3 14
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 212: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd5
+SEND 3 15
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:213 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd6
+SEND 3 16
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:214 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd7
+SEND 3 17
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 215: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd8
+SEND 3 18
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:216 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffd9
+SEND 3 19
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:217 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffda
+SEND 3 1a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 218: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffdb
+SEND 3 1b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:219 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffdc
+SEND 3 1c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:220 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffdd
+SEND 3 1d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 221: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffde
+SEND 3 1e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:222 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffdf
+SEND 3 1f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:223 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe0
+SEND 3 20
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 224: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe1
+SEND 3 21
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:225 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe2
+SEND 3 22
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:226 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe3
+SEND 3 23
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 227: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe4
+SEND 3 24
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:228 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe5
+SEND 3 25
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:229 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe6
+SEND 3 26
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:230 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe7
+SEND 3 27
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 231: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe8
+SEND 3 28
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:232 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffe9
+SEND 3 29
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:233 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffea
+SEND 3 2a
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 234: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffeb
+SEND 3 2b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:2 handle 7e8: buff:@Ÿ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@⁄ len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@€ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@‹ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@› len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@ﬁ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ﬂ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@‡  len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@·! len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@‚" len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@„# len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@‰$ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Â% len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ê& len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Á' len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ë( len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@È) len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Í* len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Î+ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ï, len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read35 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffec
+SEND 3 2c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:236 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffed
+SEND 3 2d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 237: 
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffee
+SEND 3 2e
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:238 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 ffffffef
+SEND 3 2f
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:239 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff0
+SEND 3 30
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 240: 
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff1
+SEND 3 31
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:241 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff2
+SEND 3 32
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:242 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff3
+SEND 3 33
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 243: 
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff4
+SEND 3 34
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:244 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff5
+SEND 3 35
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:245 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff6
+SEND 3 36
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 246: 
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff7
+SEND 3 37
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:247 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff8
+SEND 3 38
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:248 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffff9
+SEND 3 39
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 249: 
+SEND 0 10
+SEND 1 40
+SEND 2 fffffffa
+SEND 3 3a
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:250 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffffb
+SEND 3 3b
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:251 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffffc
+SEND 3 3c
+SEND 4 16
+Got a reply
+char 0 0
+char 1 0
+char 2 0
+char 3 0
+char 4 0
+char 5 0
+char 6 0
+char 7 0
+char 8 0
+char 9 0
+not found addr:252 got frame type 0
+SEND 0 10
+SEND 1 40
+SEND 2 fffffffd
+SEND 3 3d
+SEND 4 16
+Scan failed. Could not send ping frame to handle 4011856 and address 253: 
+ Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ì- len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ó. len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ô/ len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@0 len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ò1 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Ú2 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@Û3 len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@Ù4 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ı5 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@ˆ6 len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@˜7 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¯8 len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@˘9 len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
+mbus_serial_send_frame handle 7e8: buff:@˙: len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@˚; len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@¸< len:5
+mbus_serial_send_frame: bytes written 5
+mbus_recv_frame: DEBUG recv.
+mbus_serial_recv_frame: Read Started.
+mbus_serial_recv_frame: Read Loop.
+mbus_serial_recv_frame: Read OK 0.
+mbus_serial_send_frame handle 7e8: buff:@˝= len:5
+mbus_serial_send_frame: Failed to write frame to socket: 
+mbus_send_ping_frame: failed to send mbus frame.
