@@ -32,4 +32,5 @@ int                 mbus_serial_disconnect(mbus_serial_handle *handle);
 int                 mbus_serial_send_frame(mbus_serial_handle *handle, mbus_frame *frame);
 int                 mbus_serial_recv_frame(mbus_serial_handle *handle, mbus_frame *frame);
 int                 mbus_serial_set_baudrate(mbus_serial_handle *handle, int baudrate);
+int 				mbus_serial_set_timeout(mbus_serial_handle *handle, int timeout);
 #endif /* MBUS_SERIAL_WINDOWS_H */

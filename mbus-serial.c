@@ -128,6 +128,16 @@ mbus_serial_set_baudrate(mbus_serial_handle *handle, int baudrate)
     }
 }
 
+//------------------------------------------------------------------------------
+//
+//------------------------------------------------------------------------------
+int
+mbus_serial_set_timeout(mbus_serial_handle *handle, int timeout)
+{
+	handle->t.c_cc[VTIME] = timeout / 100;
+
+	return 0;
+}
 
 //------------------------------------------------------------------------------
 //
