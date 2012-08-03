@@ -103,6 +103,30 @@ mbus_serial_connect(char *device)
         fprintf(stderr, "%s: error setting serial port state.\n", __PRETTY_FUNCTION__);
         return NULL;
     }
+
+    // Wait at most 0.2 sec.Note that it starts after first received byte!!
+    // I.e. if CMIN>0 and there are no data we would still wait forever...
+    //
+    // The specification mentions link layer response timeout this way:
+    // The time structure of various link layer communication types is described in EN60870-5-1. The answer time
+    // between the end of a master send telegram and the beginning of the response telegram of the slave shall be
+    // between 11 bit times and (330 bit times + 50ms).
+    //
+    // For 2400Bd this means (330 + 11) / 2400 + 0.05 = 188.75 ms (added 11 bit periods to receive first byte).
+    // I.e. timeout of 0.2s seems appropriate for 2400Bd.
+
+    COMMTIMEOUTS commTimeouts = {0};
+    commTimeouts.ReadIntervalTimeout = 200;
+    commTimeouts.ReadTotalTimeoutMultiplier = 0;
+    commTimeouts.ReadTotalTimeoutConstant = 0;
+    commTimeouts.WriteTotalTimeoutMultiplier = 0;
+    commTimeouts.WriteTotalTimeoutConstant = 0;
+
+    if (!SetCommTimeouts(handle->hSerial, &commTimeouts))
+    {
+        fprintf(stderr, "%s: error setting serial port timeouts.\n", __PRETTY_FUNCTION__);
+        return NULL;
+    }
     
     return handle;
 }
