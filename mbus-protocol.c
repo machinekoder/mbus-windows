@@ -15,7 +15,7 @@
 
 #include <mbus/mbus-protocol.h>
 
-static int parse_debug = 0, debug = 0;
+static int parse_debug = 1, debug = 1;
 static char error_str[512];
 
 #define NITEMS(x) (sizeof(x)/sizeof(x[0]))
@@ -1967,6 +1967,9 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 // OK, got a valid ack frame, require no more data 
                 frame->start1   = data[0];
                 frame->type = MBUS_FRAME_TYPE_ACK;
+		if (parse_debug)
+		  printf("\n%s: got MBUS_FRAME_TYPE_ACK.\n", __PRETTY_FUNCTION__);
+
                 return 0;
                 //return MBUS_FRAME_BASE_SIZE_ACK - 1; // == 0
                               
@@ -1975,12 +1978,19 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 if (data_size < MBUS_FRAME_BASE_SIZE_SHORT)
                 {
                     // OK, got a valid short packet start, but we need more data
+		  if (parse_debug)
+		    printf("\n%s: got MBUS_FRAME_SHORT_START.\n", __PRETTY_FUNCTION__);
+
+
                     return MBUS_FRAME_BASE_SIZE_SHORT - data_size;
                 }
                 
                 if (data_size != MBUS_FRAME_BASE_SIZE_SHORT)
                 {
                     // too much data... ?
+		  if (parse_debug)
+		    printf("\n%s: got too much data error.\n", __PRETTY_FUNCTION__);
+
                     return -2;
                 }
                 
@@ -1996,6 +2006,9 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 // verify the frame
                 if (mbus_frame_verify(frame) != 0)
                 {
+		  if (parse_debug)
+		    printf("\n%s: verify failed.\n", __PRETTY_FUNCTION__);
+
                     return -3;
                 }
 
@@ -2019,6 +2032,9 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 if (frame->length1 != frame->length2)
                 {
                     // not a valid M-bus frame
+		  if (parse_debug)
+		    printf("\n%s: not a valid M-bus frame.\n", __PRETTY_FUNCTION__);
+
                     return -2;
                 }
                 
@@ -2058,6 +2074,9 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 // verify the frame
                 if (mbus_frame_verify(frame) != 0)
                 {
+		  if (parse_debug)
+		    printf("\n%s: verify failed.\n", __PRETTY_FUNCTION__);
+
                     return -3;
                 }
 
@@ -2065,6 +2084,9 @@ mbus_parse(mbus_frame *frame, u_char *data, size_t data_size)
                 return 0;        
             default:
                 // not a valid M-Bus frame header (start byte)
+	      if (parse_debug)
+		printf("\n%s: not a valid M-Bus frame header (start byte).\n", __PRETTY_FUNCTION__);
+
                 return -4;
         }    
         

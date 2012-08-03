@@ -535,5 +535,7 @@ u_char mbus_dif_datalength_lookup(u_char dif);
 char *mbus_frame_get_secondary_address(mbus_frame *frame);
 int   mbus_frame_select_secondary_pack(mbus_frame *frame, char *address);
 
+void mbus_hexdump(const char *c, int len);
+
 #endif /* _MBUS_PROTOCOL_H_ */
 

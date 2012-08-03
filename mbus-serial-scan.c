@@ -84,14 +84,9 @@ main(int argc, char **argv)
             continue;
         } 
 	else  {
-	      printf("Got a reply\n");
-	      int n=0;
-	      const char * c=(const char * )&reply;
-	      //	      for(;n < sizeof(mbus_frame)-1; c++)		{	       
-	      for(;n < 10; c++)		{	       
-		printf("char %d %d\n",n,*c);
-		n++;
-	      }
+	  printf("Got a reply\n");
+	  mbus_hexdump((const char * )&reply, 10);
+
 	}
 
 	int frame_type= mbus_frame_type(&reply);

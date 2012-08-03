@@ -217,15 +217,12 @@ mbus_serial_send_frame(mbus_serial_handle *handle, mbus_frame *frame)
         return -1;
     }
 
-    fprintf(stderr, "mbus_serial_send_frame handle %x: buff:%s len:%d\n", handle->hSerial, buff, len);
+    fprintf(stderr, "mbus_serial_send_frame handle %x: len:%d\n", handle->hSerial, len);
 
-    // DUMP
-    int n=0;
-    const char * c=(const char * )&buff;
-    for(;n < len; c++)		{	       
-      printf("SEND %d %x\n",n,*c);
-      n++;
-    }
+    printf("SEND :\n");
+    mbus_hexdump((const char * )&buff, len);
+    
+
     ///
     
     
@@ -287,19 +284,30 @@ mbus_serial_recv_frame(mbus_serial_handle *handle, mbus_frame *frame)
 	  {
 	    fprintf(stderr, "%s: Read OK %d.\n", __PRETTY_FUNCTION__,dwBytesRead);
 	  }
+
+
+	printf("READ %d :\n",dwBytesRead);
+	mbus_hexdump((const char * )&buff[len], dwBytesRead);
         
-	// DUMP
-	int n=0;
-	const char * c=(const char * )&buff[len];
-	for(;n < dwBytesRead; c++)		{	       
-	  printf("read %d %x\n",n,*c);
-	  n++;
-	}
-    ///-------------------
 
         len += dwBytesRead;
         
-    } while ((remaining = mbus_parse(frame, buff, len)) > 0);
+	remaining = mbus_parse(frame, buff, len);
+
+	if (remaining <0)
+	  {
+	    printf("An error has occured %d but we continue\n", remaining);
+	    //return remaining;
+	  }
+	else
+	  {
+	    printf("Remaining %d :\n",remaining);
+	  }
+
+    } while (remaining > 0);
+
+    printf("Final READ %d :\n",len);
+    mbus_hexdump((const char * )&buff, len);
     
     if (len == -1)
     {

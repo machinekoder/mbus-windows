@@ -1532,3 +1532,14 @@ mbus_scan_2nd_address_range(mbus_handle * handle, int pos, char *addr_mask)
     free(mask);
     return 0;
 }
+
+
+
+void mbus_hexdump(const char *c, int len)
+{
+  int n=0;
+  for(;n < len; c++)		{	       
+    printf("char %d: %02x\n",n,*c);
+    n++;
+  }
+}
