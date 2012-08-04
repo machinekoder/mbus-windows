@@ -25,7 +25,7 @@ main(int argc, char **argv)
 {
     mbus_handle *handle;
     char *device;
-    int address, baudrate = 2400;
+    int address, baudrate = 2400, timeout = 200;
 
     fprintf(stderr, "Hello, welcome to mbus\n");
 
@@ -38,13 +38,24 @@ main(int argc, char **argv)
         baudrate = atoi(argv[2]); 
         device = argv[3];
     }
+    else if (argc == 4 && strcmp(argv[1], "-t") == 0)
+	{
+		timeout = atoi(argv[2]);
+		device = argv[3];
+	}
+    else if (argc == 6 && strcmp(argv[1], "-b") == 0 && strcmp(argv[3], "-t") == 0)
+    	{
+    		baudrate = atoi(argv[2]);
+    		timeout = atoi(argv[4]);
+    		device = argv[5];
+    	}
     else
     {
-        fprintf(stderr, "usage: %s [-b BAUDRATE] device\n", argv[0]);
+        fprintf(stderr, "usage: %s [-b BAUDRATE] [-t TIMEOUT] device\n", argv[0]);
         return 0;
     }
 
-    fprintf(stderr, "Going to use device %s at baud %d \n", device, baudrate);
+    fprintf(stderr, "Going to use device %s at baud %d and timeout %d\n", device, baudrate, timeout);
     
 
 
@@ -60,6 +71,12 @@ main(int argc, char **argv)
         printf("Failed to set baud rate.\n");
         return -1;
     }
+
+    if (mbus_serial_set_timeout(handle->m_serial_handle, timeout) == -1)
+	{
+		printf("Failed to set timeout.\n");
+		return -1;
+	}
 
 
 

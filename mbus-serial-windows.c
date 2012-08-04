@@ -56,7 +56,7 @@ mbus_serial_connect(char *device)
     else
       strcpy(handle->device, device);
 
-    fprintf(stderr, "Going to use device %s\n", handle->device);
+    fprintf(stderr, "%s: Going to use device %s\n", __PRETTY_FUNCTION__, handle->device);
 
     
     //
@@ -80,7 +80,7 @@ mbus_serial_connect(char *device)
         return NULL;
     }
     else {
-      fprintf(stderr, "device opened %s\n", handle->device);
+      fprintf(stderr, "%s: device opened %s\n", __PRETTY_FUNCTION__, handle->device);
     }
     
     DCB dcbSerialParams = {0};
@@ -187,6 +187,10 @@ mbus_serial_set_timeout(mbus_serial_handle *handle, int timeout)
 		fprintf(stderr, "%s: error setting serial port timeouts.\n", __PRETTY_FUNCTION__);
 		return -1;
 	}
+	else
+	{
+		fprintf(stderr, "%s: timeout set to %d ms.\n", __PRETTY_FUNCTION__, timeout);
+	}
 
 	return 0;
 }
@@ -283,43 +287,46 @@ mbus_serial_recv_frame(mbus_serial_handle *handle, mbus_frame *frame)
     len = 0;
     
     fprintf(stderr, "%s: Read Started.\n", __PRETTY_FUNCTION__);
-//    do {
+    do {
 
 //      fprintf(stderr, "%s: Read Loop.\n", __PRETTY_FUNCTION__);
 
-      if (!ReadFile(handle->hSerial, &buff[len], remaining, &dwBytesRead, NULL))
+      if (ReadFile(handle->hSerial, &buff[len], remaining, &dwBytesRead, NULL) == 0)
       {
-    	  fprintf(stderr, "%s: ReadFile Failed.\n", __PRETTY_FUNCTION__);
+    	  //fprintf(stderr, "%s: ReadFile Failed.\n", __PRETTY_FUNCTION__);
+		  fprintf(stderr, "%s: aborting recv frame (remaining = %d, len = %d, nread = %d)\n",
+    	          __PRETTY_FUNCTION__, remaining, len, dwBytesRead);
 
     	  return -1;
       }
       else
 	  {
-    	  fprintf(stderr, "%s: Read OK %d.\n", __PRETTY_FUNCTION__,dwBytesRead);
+    	  fprintf(stderr, "%s: Read OK.\n", __PRETTY_FUNCTION__);
 	  }
 
 
-	printf("READ %d :\n",dwBytesRead);
-	mbus_hexdump((const char * )&buff[len], dwBytesRead);
+	printf("%s: READ %d bytes [remaining %d, len %d]\n",__PRETTY_FUNCTION__, dwBytesRead, remaining, len);
+	if (dwBytesRead > 0)
+		mbus_hexdump((const char * )&buff[len], dwBytesRead);
 
-        len += dwBytesRead;
+	len += dwBytesRead;
         
-	remaining = mbus_parse(frame, buff, len);
+    } while ((remaining = mbus_parse(frame, buff, len))> 0);
 
 	if (remaining <0)
 	  {
-	    printf("An error has occured %d but we continue\n", remaining);
+		// Would be OK when e.g. scanning the bus, otherwise it is a failure.
+	    printf("%s: An error has occured %d but we continue\n",__PRETTY_FUNCTION__, remaining);
 	    //return remaining;
+	    return -1;
 	  }
-	else
-	  {
-	    printf("Remaining %d :\n",remaining);
-	  }
+	//else
+	//  {
+	//    printf("%s: Remaining %d :\n",__PRETTY_FUNCTION__,remaining);
+	//  }
 
-    //} while (remaining > 0);
-
-    printf("Final READ %d :\n",len);
-    mbus_hexdump((const char * )&buff, len);
+    //printf("Final READ %d :\n",len);
+    //mbus_hexdump((const char * )&buff, len);
     
     if (len == -1)
     {
