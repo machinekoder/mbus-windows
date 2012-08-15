@@ -102,7 +102,7 @@ main(int argc, char **argv)
         } 
 	else  {
 	  printf("Got a reply\n");
-	  mbus_hexdump((const char * )&reply, 10);
+	  mbus_hexdump((const char * )&reply, reply.length1);
 
 	}
 
